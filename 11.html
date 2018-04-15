@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bullshit</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <nav>
+        <a href="1.html" style="color: #ffffff;">דף ראשי</a>
+        <span class="vbar">|</span>
+        <a href="/stories/" style="color: #76d8ff;">רשימת עמודים</a>
+        <span class="vbar">|</span>
+        <a href="1.html" style="color: #ffbc3e;">יוצרים</a>
+      </nav>
+    </header>
+
+    <div class="pos-r">
+
+      <div class="row bg-hs-gray bg-light-gray--md pad-t-md--md pos-r">
+        <div id="content_container" class="mar-x-auto disp-bl" style="max-width:650px;">
+		<h2 class="pad-t-md pad-x-lg--md type-center type-hs-header line-tight">...</h2>
+          <div class="pad-t-md">
+            <img src="pages/hivestuck11.png" class="mar-x-auto disp-bl" alt="num1">
+          </div>
+        </div>
+      </div>
+      <div class="row bg-hs-gray bg-light-gray--md pad-b-md pad-b-lg--md pos-r">
+        <div class="mar-x-auto disp-bl bg-hs-gray pad-t-lg" style="max-width:650px;">
+		<p class="o-story_text type-hs-small--md type-center line-caption line-copy--md pad-x-lg--md pad-b-lg">?נראה לך שביקום מקביל הצלחנו לעניין אותם
+          <div class="o_story-nav type-hs-copy line-tight pad-x-0 pad-x-lg--md mar-b-lg">
+            <div>
+              <span style="float:right">&lsaquo;</span>
+              <a style="float:right" href="1alt.html">?..</a><br>
+            </div>
+          </div>
+	 
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="o_site-footer row pos-r pad-t-rg bg-dark-gray">
+    <div class="float-l"><img id="image"/><br></div>
+    <div class="float-r disp-n disp-bl--sm"><img id="image2"/><br></div>
+    <div class="type-center pad-t-md--md">
+	    <div><span style="white-space:nowrap;"><del>&copy;</del>2018 Dndlion </span> <span style="white-space:nowrap;">and Moxan Media</span></div>
+    </div>
+  </div>
+</div>
+	<script>
+	var images = [
+    "derp/vrisderp.png",
+    "derp/davespritederp.png",
+    "derp/dedvrisderp.png",
+    "derp/davederp.png",
+    "derp/dorianderp.png",
+			"derp/dorianderp2.png",
+			"derp/creaturederp.png",
+			"derp/bobbyderp1.png",
+			"derp/bobbyderp2.png",
+			"derp/vicderp.png"
+    ];
+
+function randImg() {
+    var size = images.length
+    var x = Math.floor(size * Math.random())
+    document.getElementById('image').src = images[x];
+}
+function randImg2() {
+    var size = images.length
+    var x = Math.floor(size * Math.random())
+    document.getElementById('image2').src = images[x];
+}
+
+randImg();
+randImg2();
+</script>
+
+
+
+</body>
+
+</html>
